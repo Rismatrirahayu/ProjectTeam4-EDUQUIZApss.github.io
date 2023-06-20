@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>EDUQUIZ</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active">Home</li>
+                <li><a href="tentang-kami.html">Tentang Kami </a></li>
+                <li><a href="menu-matpel.html">Mata Pelajaran</a></li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Ayo Uji Pengetahuanmu Sekarang!</p>
+            <p class="msg">Mempersiapkan diri untuk ujian tidak pernah lebih mudah.
+                Dapatkan akses ke berbagai kuis gratis dan kembangkan pengetahuanmu dengan situs quiz edukasi kami.</p>
+            <button class="cta"><a href="./menu-matpel.html">learn More</a></button>
+        </section>
+
+        <section class="right">
+            <img src="img/icon3.png" alt="Langing image">
+        </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+
+</body>
+
+</html>

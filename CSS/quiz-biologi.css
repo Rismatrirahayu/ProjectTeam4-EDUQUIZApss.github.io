@@ -1,0 +1,77 @@
+ /* CSS untuk tampilan umum */
+ body {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif !important;
+  background: #5A40F5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color:#f8f9fa
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  color: #000000;
+  font-weight: bolder;
+  border-bottom: 0.1em solid #c0bfd2;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.form-check-label {
+  margin-left: 10px;
+}
+
+/* CSS khusus untuk hasil kuis */
+#submit {
+  display: block;
+  margin: 20px auto;
+  background-color: #f8f9fa !important;
+  text-align: center;
+  width: 50%; 
+  color:#5A40F5;
+  font-weight: bolder;
+  border-radius: 0.8em;
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+
+#resultModalLabel {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#score {
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-bottom: 0.1em solid #c0bfd2;
+}
+
+.btn-custom {
+background-color: #5A40F5;
+}
+
+.custom-header{
+background-color: #f8f9fa; 
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/tentang-kami.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Tentang Kami</title>
+</head>
+
+<body>
+    <header>
+        <h1>EDUQUIZ</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Tentang Kami</li>
+                <li><a href="menu-matpel.html">Mata Pelajaran</a></li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="right">
+            <img src="img/icon2.png" alt="Langing image">
+        </section>
+
+        <section class="left">
+            <p class="title">Selamat Datang di EDUQUIZ!</p>
+            <p class="msg">EDUQUIZ merupakan platform yang menyediakan quiz untuk jenjang Sekolah Menengah Atas. 
+                Dengan 6 pilihan Mata Pelajaran yaitu Biologi, Ekonomi, Pendidikan Kewargangaraan, Sejarah, Penjaskes, dan Sosiologi.         
+            <p class="msg">Bertujuan untuk membantu siswa dalam melatih kemampuan di bidang yang diminati.</p>
+        
+            <div class="social-media">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+</body>
+</html>
